@@ -1,0 +1,154 @@
+{
+  "questions": [
+    {
+      "question": "What is Python and list some of its key features.",
+      "explanation": "Python is a high-level, interpreted, general-purpose programming language known for its readability and versatility. Key features include: clear syntax, dynamic typing, extensive libraries, cross-platform compatibility, and a large and active community."
+    },
+    {
+      "question": "Is Python a compiled language or an interpreted language?",
+      "explanation": "Python is an interpreted language. This means that the code is executed line by line at runtime by the Python interpreter."
+    },
+    {
+      "question": "What does the '#' symbol do in Python?",
+      "explanation": "The '#' symbol in Python is used to create comments. Any text following '#' on the same line is ignored by the interpreter."
+    },
+    {
+      "question": "What is a dynamically typed language?",
+      "explanation": "In a dynamically typed language like Python, you don't need to explicitly declare the data type of a variable. The interpreter infers the type at runtime."
+    },
+    {
+      "question": "What are Python lists and tuples?",
+      "explanation": "Both lists and tuples are ordered collections of elements. Lists are mutable (changeable), while tuples are immutable (unchangeable)."
+    },
+    {
+      "question": "What is __init__() in Python?",
+      "explanation": "__init__() is a special method called the constructor in Python. It's used to initialize the object's state when it's created."
+    },
+    {
+      "question": "Can we Pass a function as an argument in Python?",
+      "explanation": "Yes, Python supports first-class functions, meaning functions can be treated like any other object. You can pass them as arguments to other functions."
+    },
+    {
+      "question": "What are *args and **kwargs?",
+      "explanation": "*args allows you to pass an arbitrary number of positional arguments to a function as a tuple. **kwargs allows you to pass an arbitrary number of keyword arguments as a dictionary."
+    },
+    {
+      "question": "Is Indentation Required in Python?",
+      "explanation": "Yes, indentation is crucial in Python. It defines the scope of blocks of code (like loops and conditional statements)."
+    },
+    {
+      "question": "What is a Variable Scope in Python?",
+      "explanation": "Variable scope determines where in the code a variable can be accessed. Variables can have local, global, or nonlocal scope."
+    },
+    {
+      "question": "What is docstring in Python?",
+      "explanation": "A docstring is a string literal that appears as the first statement in a module, function, class, or method definition. It's used to document the purpose of the code."
+    },
+    {
+      "question": "What is a break, continue, and pass in Python?",
+      "explanation": "break: Terminates the current loop. continue: Skips the current iteration of the loop. pass: A placeholder that does nothing."
+    },
+    {
+      "question": "What are Built-in data types in Python?",
+      "explanation": "Some common built-in data types in Python include: int, float, str, bool, list, tuple, set, dict."
+    },
+    {
+      "question": "How do you floor a number in Python?",
+      "explanation": "Use the floor() function from the math module: `import math; math.floor(3.7)` will return 3."
+    },
+    {
+      "question": "What is slicing in Python?",
+      "explanation": "Slicing allows you to extract a portion of a sequence (like a list or string) using indices."
+    },
+    {
+      "question": "What are Access Specifiers in Python?",
+      "explanation": "Access specifiers (public, protected, private) control how members (attributes and methods) of a class can be accessed from outside the class."
+    },
+    {
+      "question": "What are unit tests in Python?",
+      "explanation": "Unit tests are small, isolated tests that verify the correctness of individual parts of your code."
+    },
+    {
+      "question": "Python Global Interpreter Lock (GIL)?",
+      "explanation": "The GIL is a mechanism in CPython (the most common Python implementation) that limits the execution of Python bytecode to a single thread at a time."
+    },
+    {
+      "question": "What are Function Annotations in Python?",
+      "explanation": "Function annotations provide metadata about the function's parameters and return value. They are optional and don't affect how the function works."
+    },
+    {
+      "question": "What are Exception Groups in Python?",
+      "explanation": "Exception groups allow you to handle multiple exceptions that occur simultaneously within a single try-except block."
+    },
+    {
+      "question": "What is Walrus Operator?",
+      "explanation": "The walrus operator (:=) assigns a value to a variable as part of a larger expression."
+    },
+    {
+      "question": "Explain the difference between a Shallow Copy and a Deep Copy.",
+      "explanation": "A shallow copy creates a new object but only copies the references to the objects within the original object. A deep copy creates a new object and recursively copies all the objects within the original object."
+    },
+    {
+      "question": "How is Multithreading achieved in Python?",
+      "explanation": "Multithreading in Python is achieved using the `threading` module. However, due to the GIL, true parallelism for CPU-bound tasks is limited."
+    },
+    {
+      "question": "What is the difference between a list and a tuple?",
+      "explanation": "Lists are mutable (changeable), while tuples are immutable (unchangeable). Lists are generally more flexible for most use cases."
+    },
+    {
+      "question": "What are pickling and unpickling?",
+      "explanation": "Pickling is the process of converting Python objects into a byte stream (serialization). Unpickling is the reverse process of converting the byte stream back into Python objects."
+    },
+    {
+      "question": "What is the difference between del and remove() on lists?",
+      "explanation": "del removes an item at a specific index in a list. remove() removes the first occurrence of a specific value from a list."
+    },
+    {
+      "question": "What is the difference between / and // in Python?",
+      "explanation": "/ performs floating-point division, while // performs floor division (returns the integer quotient)."
+    },
+    {
+      "question": "How is Exceptional handling done in Python?",
+      "explanation": "Exception handling in Python is done using the `try-except` block."
+    },
+    {
+      "question": "What is a lambda function?",
+      "explanation": "A lambda function is a small, anonymous function defined using the `lambda` keyword."
+    },
+    {
+      "question": "Difference between for loop and while loop in Python.",
+      "explanation": "A for loop is used to iterate over a sequence (like a list or string). A while loop continues as long as a given condition is true."
+    },
+    {
+      "question": "What is the difference between xrange and range functions?",
+      "explanation": "In Python 2, `xrange` generated values on-the-fly, while `range` created a list of all values. In Python 3, `range` behaves like `xrange` from Python 2."
+    },
+    {
+      "question": "What is Dictionary Comprehension?",
+      "explanation": "Dictionary comprehension provides a concise way to create dictionaries using a similar syntax to list comprehension."
+    },
+    {
+      "question": "What is the difference between a shallow copy and a deep copy?",
+      "explanation": "A shallow copy creates a new object but only copies the references to the objects within the original object. A deep copy creates a new object and recursively copies all the objects within the original object."
+    },
+    {
+      "question": "Which sorting technique is used by sort() and sorted() functions of python?",
+      "explanation": "They typically use a variation of Timsort, which is an efficient hybrid sorting algorithm."
+    },
+    {
+      "question": "What are Decorators?",
+      "explanation": "Decorators are a powerful feature in Python that allow you to modify the behavior of functions or classes without directly changing their code."
+    },
+    {
+      "question": "How do you debug a Python program?",
+      "explanation": "You can use techniques like print statements, the `pdb` (Python Debugger) module, or integrated development environments (IDEs) with debugging features."
+    },
+    {
+      "question": "What are Iterators in Python?",
+      "explanation": "Iterators are objects that can be used to traverse a collection of elements one by one."
+    },
+    {
+      "question": "What are Generators in Python?",
+      "explanation": "Generators are a special type of function that use the `yield` keyword to return a sequence of values on-the-fly, saving memory,"
+    }]}

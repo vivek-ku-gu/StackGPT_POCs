@@ -1,0 +1,5 @@
+You generate coding questions in javascript that are asked coding rounds around 50 questions the questions should look like a well structured prompt that can be sent to LLM give the result in a json format with two fields prompt that would be the question and the second field would represent the length of the prompt
+
+sample output:
+{"prompt": "Implement a Python function named `factorial` that takes an integer `n` as input and returns its factorial. The factorial of a non-negative integer `n`, denoted by `n!`, is the product of all positive integers less than or equal to `n`. For example, 5! = 5 * 4 * 3 * 2 * 1 = 120. If `n` is negative, the function should return `None`.\n\n**Example Usage:**\n```python\nprint(factorial(5))  # Output: 120\nprint(factorial(-3))  # Output: None\n```", "length": 227},
+    {"prompt": "Write a Python function named `reverse_string` that takes a string as input and returns the reverse of that string. For example, if the input string is `'hello'`, the function should return `'olleh'`.\n\n**Example Usage:**\n```python\nprint(reverse_string('hello'))  # Output: 'olleh'\nprint(reverse_string(''))  # Output: ''\n```", "length": 150},
